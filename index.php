@@ -66,10 +66,10 @@
             <!-- BOTTOM HEADER -->
             <section class="bottom-header">
                 <ul class="navigation flex">
-                    <li><a href="#">Introduzione</a></li>
-                    <li><a href="#">Norme sulla Privacy</a></li>
-                    <li><a href="#">Termini di servizio</a></li>
-                    <li><a href="#">Tecnologie</a></li>
+                    <li><a href="https://policies.google.com/">Introduzione</a></li>
+                    <li><a href="https://policies.google.com/privacy">Norme sulla Privacy</a></li>
+                    <li><a href="https://policies.google.com/terms">Termini di servizio</a></li>
+                    <li><a href="https://policies.google.com/technologies">Tecnologie</a></li>
                     <li><a href="#">Domande frequenti</a></li>
                 </ul>
             </section>
