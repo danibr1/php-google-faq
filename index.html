@@ -4,6 +4,13 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- FONTAWSOME -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+            integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+            crossorigin="anonymous"
+        />
         <!-- FONT  -->
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link
@@ -12,19 +19,39 @@
         />
         <!-- STYLE  -->
         <link rel="stylesheet" href="./style/style.css" />
-        <title>Google faq</title>
+        <title>Google FAQ</title>
     </head>
     <body>
         <header class="header">
-            <div class="main-header flex jc-between ai-center ">
-                <div class="logo">
-                    LOGO HERE
+            <!-- TOP HEADER -->
+            <section class="top-header flex jc-between ai-center">
+                <!-- Left header -->
+                <div class="left-header logo flex ai-center">
+                    <img src="./img/google.png" alt="google" />
+                    <a href="#">Privacy e termini</a>
                 </div>
-                <div class="user">
-                    USER HERE
+                <!-- Right header -->
+                <div class="right-header flex ai-center">
+                    <a class="icon-menu" href="#">
+                        <svg class="square-icon" viewBox="0 0 24 24">
+                            <path
+                                d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z"
+                            ></path>
+                        </svg>
+                    </a>
+                    <a href="#"><img src="./img/user.png" alt="user" /></a>
                 </div>
-
-            </div>
+            </section>
+            <!-- BOTTOM HEADER -->
+            <section class="bottom-header">
+                <ul class="navigation flex">
+                    <li><a href="#">Introduzione</a></li>
+                    <li><a href="#">Norme sulla Privacy</a></li>
+                    <li><a href="#">Termini di servizio</a></li>
+                    <li><a href="#">Tecnologie</a></li>
+                    <li><a href="#">Domande frequenti</a></li>
+                </ul>
+            </section>
         </header>
     </body>
 </html>
