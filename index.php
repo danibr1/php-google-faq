@@ -77,18 +77,13 @@
         <main>
             <div class="container">
                 <div class="topic">
-
+                    <!-- Print faqs -->
                     <?php foreach ($faqs as $topic) { ?>
                         <h2><?php echo $topic['question']; ?></h2>
-            
-
                         <p><?php echo $topic['answare']; ?></p> 
-        
                     <?php } ?>
-                    
                 </div>
             </div>
-
         </main>
     </body>
 </html>
